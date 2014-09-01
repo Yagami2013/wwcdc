@@ -19,6 +19,10 @@ public class FrameAnimation extends Activity {
 		startView=new FrameView(this);
 		setContentView(startView);
 	}
+	public void onWindowFocusChanged(boolean hasFocus) {
+		super.onWindowFocusChanged(hasFocus);
+		startView.frameAnimation.start();
+	}
 	public boolean onKeyDown(int keyCode,KeyEvent event){
 		if (startView==null) {
 			return false;

@@ -4,10 +4,10 @@
 
     <item
         android:drawable="@drawable/hello1"
-        android:duration="300"/>
+        android:duration="400"/>
     <item
         android:drawable="@drawable/hello2"
-        android:duration="300"/>
+        android:duration="400"/>
     <item
         android:drawable="@drawable/hello3"
         android:duration="300"/>
