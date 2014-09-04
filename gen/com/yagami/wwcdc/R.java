@@ -9,7 +9,12 @@ package com.yagami.wwcdc;
 
 public final class R {
     public static final class anim {
-        public static final int frame=0x7f040000;
+        public static final int alpha_animation=0x7f040000;
+        public static final int com=0x7f040001;
+        public static final int frame=0x7f040002;
+        public static final int rotate_animation=0x7f040003;
+        public static final int scale_animation=0x7f040004;
+        public static final int translate_animation=0x7f040005;
     }
     public static final class attr {
     }
