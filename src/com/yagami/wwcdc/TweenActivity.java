@@ -36,6 +36,11 @@ public class TweenActivity extends Activity {
 		}
 		return super.onKeyDown(keyCode, event);
 	}
+	public void onWindowFocusChanged(boolean hasFocus) {
+		
+		super.onWindowFocusChanged(hasFocus);
+		mStartView.onKeyUp(KeyEvent.KEYCODE_0, null);
+	}
 	public class StartView extends View{
 		
 		private Animation mAnimationAlpha=null;
@@ -92,6 +97,8 @@ public class TweenActivity extends Activity {
 				break;
 			}*/
 			this.startAnimation(as);
+			//this.startAnimation(mAnimationTranslate);
+			//this.startAnimation(mAnimationScale);
 			return true;
 		}
 	}
