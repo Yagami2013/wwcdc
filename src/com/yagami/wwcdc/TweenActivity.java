@@ -49,11 +49,13 @@ public class TweenActivity extends Activity {
 		private Animation mAnimationRotate=null;
 		private AnimationSet as=null;
 		Bitmap mBitmap=null;
+		Bitmap start2=null;
 
 		public StartView(Context context) {
 			super(context);
 			
 			mBitmap=((BitmapDrawable)getResources().getDrawable(R.drawable.icon)).getBitmap();
+			start2=((BitmapDrawable)getResources().getDrawable(R.drawable.start2)).getBitmap();
 			
 			mAnimationAlpha=AnimationUtils.loadAnimation(TweenActivity.this, R.anim.alpha_animation);
 			mAnimationAlpha.setDuration(1000*4);
