@@ -17,6 +17,7 @@ public class TweenActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		mStartView=new StartView(this);
+		//mStartView.setBackgroundResource(R.drawable.test_backgroud);
 		setContentView(mStartView);
 	}
 	public boolean onKeyUp(int keyCode,KeyEvent event) {
