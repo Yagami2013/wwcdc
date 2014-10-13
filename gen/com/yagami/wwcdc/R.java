@@ -30,15 +30,17 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int hello1=0x7f020000;
-        public static final int hello2=0x7f020001;
-        public static final int hello3=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int icon=0x7f020004;
-        public static final int start1=0x7f020005;
-        public static final int start2=0x7f020006;
-        public static final int start3=0x7f020007;
-        public static final int test_backgroud=0x7f020008;
+        public static final int bg=0x7f020000;
+        public static final int hello1=0x7f020001;
+        public static final int hello2=0x7f020002;
+        public static final int hello3=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int icon=0x7f020005;
+        public static final int start1=0x7f020006;
+        public static final int start2=0x7f020007;
+        public static final int start3=0x7f020008;
+        public static final int test_backgroud=0x7f020009;
+        public static final int test_bg=0x7f02000a;
     }
     public static final class id {
         public static final int action_settings=0x7f090001;
@@ -46,6 +48,7 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int test=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -60,6 +63,7 @@ public final class R {
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -81,6 +85,7 @@ public final class R {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
          */
         public static final int TestTheme=0x7f070000;

@@ -12,9 +12,10 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:theme="@style/TestTheme" >
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        >
         <activity
-            android:name="com.yagami.wwcdc.TweenActivity"
+            android:name="com.yagami.wwcdc.Test"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
